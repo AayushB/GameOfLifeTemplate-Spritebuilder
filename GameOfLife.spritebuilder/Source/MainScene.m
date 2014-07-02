@@ -27,7 +27,7 @@
     return self;
 }
 
-- (void)Play
+- (void)play
 {
     //this tells the game to call a method called 'step' every half second.
     [self schedule:@selector(step) interval:0.5f];
