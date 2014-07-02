@@ -97,8 +97,7 @@ static const int GRID_COLUMNS = 10;
     
     //update the generation so the label's text will display the correct generation
     _generation++;
-    
-    
+ 
 }
 
 -(void)countNeighbors
@@ -158,11 +157,11 @@ static const int GRID_COLUMNS = 10;
             
             if(currentCreature.livingNeighbors==3)
             {
-                currentCreature.isAlive=true;
+                currentCreature.isAlive=YES;
             }
-            else if(currentCreature.livingNeighbors<=1 || currentCreature.livingNeighbors>=4)
+            else if(currentCreature.livingNeighbors <=1 || currentCreature.livingNeighbors >=4)
             {
-                currentCreature.isAlive=false;
+                currentCreature.isAlive=NO;
             }
         }
     }
