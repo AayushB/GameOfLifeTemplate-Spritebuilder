@@ -291,11 +291,11 @@
 						<key>children</key>
 						<array/>
 						<key>customClass</key>
-						<string>Grid</string>
+						<string></string>
 						<key>displayName</key>
 						<string>CCButton</string>
 						<key>memberVarAssignmentName</key>
-						<string></string>
+						<string>_grid</string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>properties</key>
