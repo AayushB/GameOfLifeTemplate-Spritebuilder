@@ -135,9 +135,8 @@ static const int GRID_COLUMNS = 10;
                         {
                             currentCreature.livingNeighbors += 1;
                         }
-                  }
+                    }
                     
-                     NSLog(@"%i",currentCreature.livingNeighbors);
                 }
                 
             }
@@ -157,6 +156,8 @@ static const int GRID_COLUMNS = 10;
         {
             // access the creature in the cell that corresponds to the current row/column
             Creature *currentCreature = _gridArray[i][j];
+            
+            NSLog(@"%i",currentCreature.livingNeighbors);
             
             if(currentCreature.livingNeighbors==3)
             {
