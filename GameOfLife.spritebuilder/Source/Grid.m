@@ -135,10 +135,11 @@ static const int GRID_COLUMNS = 10;
                         {
                             currentCreature.livingNeighbors += 1;
                         }
-                    }
+                  }
+                    
+                     NSLog(@"%i",currentCreature.livingNeighbors);
                 }
                 
-                NSLog(@"%i",currentCreature.livingNeighbors);
             }
         }
     }
