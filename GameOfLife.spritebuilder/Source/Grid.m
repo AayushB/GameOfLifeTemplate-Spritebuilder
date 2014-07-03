@@ -165,6 +165,7 @@ static const int GRID_COLUMNS = 10;
             {
                 //currentCreature.isAlive=NO;
                  [currentCreature setIsAlive:NO];
+                NSLog(@"not ok");
             }
         }
     }
