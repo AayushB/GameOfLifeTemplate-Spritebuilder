@@ -157,18 +157,18 @@ static const int GRID_COLUMNS = 10;
             // access the creature in the cell that corresponds to the current row/column
             Creature *currentCreature = _gridArray[i][j];
             
-            if(currentCreature.livingNeighbors==3)
+            if(currentCreature.livingNeighbors==0)
             {
-                 currentCreature.isAlive=YES;
+                 currentCreature.isAlive=NO;
               //  [currentCreature setIsAlive:YES];
             }
-            else if(currentCreature.livingNeighbors <=1 || currentCreature.livingNeighbors >=4)
-            {
-                currentCreature.isAlive=NO;
+            //else if(currentCreature.livingNeighbors <=1 || currentCreature.livingNeighbors >=4)
+            //{
+              //  currentCreature.isAlive=NO;
                //  [currentCreature setIsAlive:NO];
                 
-                NSLog(@"%i",currentCreature.livingNeighbors);
-            }
+                //NSLog(@"%i",currentCreature.livingNeighbors);
+            //}
         }
     }
     
