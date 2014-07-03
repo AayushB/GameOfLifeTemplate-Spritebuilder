@@ -157,11 +157,13 @@ static const int GRID_COLUMNS = 10;
             
             if(currentCreature.livingNeighbors==3)
             {
-                currentCreature.isAlive=YES;
+                //currentCreature.isAlive=YES;
+                [currentCreature setIsAlive:YES];
             }
             else if(currentCreature.livingNeighbors <=1 || currentCreature.livingNeighbors >=4)
             {
-                currentCreature.isAlive=NO;
+                //currentCreature.isAlive=NO;
+                 [currentCreature setIsAlive:NO];
             }
         }
     }
