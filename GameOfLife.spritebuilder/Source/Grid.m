@@ -138,7 +138,7 @@ static const int GRID_COLUMNS = 10;
                     }
                 }
                 
-                NSLog(currentCreature.livingNeighbors);
+                NSLog(@"%i",currentCreature.livingNeighbors);
             }
         }
     }
